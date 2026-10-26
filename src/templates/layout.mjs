@@ -24,6 +24,8 @@ export function page({ title = site.title, description = site.description, path 
 <meta name="theme-color" content="#121212">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/big-shoulders-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
