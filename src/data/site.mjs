@@ -28,37 +28,38 @@ export const nav = [
 ];
 
 // Featured projects (home + /projects) and secondary projects (/otherprojects).
+// `summary` is only used for <meta name="description">; on-page copy is the author's own.
 export const projects = [
   {
     slug: 'darkfen', title: 'Darkfen', genre: 'SOULS-LIKE RPG', href: '/work/darkfen---darkfen',
-    cover: 'mh28kHE0h4BQbwkbebjtI1hw', featured: true,
-    summary: 'A Dark Souls style level built around interconnected routes, shortcuts and hidden spaces.',
-    meta: { type: 'Personal Project', timeline: 'Six Weeks', engine: 'UE5' },
+    cover: 'mh28kHE0h4BQbwkbebjtI1hw', preview: 'mI4t6T5ytiwpUs9Bc3J8wHJuo', featured: true,
+    meta: ['Personal Project', 'Six Weeks'],
+    summary: 'Darkfen: a Dark Souls style level by Vamsi Kasina, built around interconnected routes, shortcuts and hidden spaces.',
   },
   {
     slug: 'delumination', title: 'Delumination', genre: 'NARRATIVE BASED RPG', href: '/projects/delumination',
-    cover: '8NDoYYbqyMg6ztDoOZDRI1NQ', featured: true,
-    award: '🏆 Futuregames Award 2025 Best Narrative Nomination 🏆',
-    summary: 'Team project: level, system and quest design for a narrative RPG set in the city of Elysium.',
-    meta: { type: 'Group Project · Team of 4', timeline: 'Four Months', engine: 'UE5' },
+    cover: '8NDoYYbqyMg6ztDoOZDRI1NQ', preview: 'preview-delumination', featured: true,
+    award: 'Futuregames Award 2025 Best Narrative Nomination',
+    meta: ['Team of 4', 'Four Months'],
+    summary: 'Delumination: level, system and quest design by Vamsi Kasina for a narrative RPG (Futuregames Award 2025 Best Narrative nominee).',
   },
   {
     slug: 'pier-extract', title: 'Pier Extract', genre: 'EXTRACTION SHOOTER', href: '/pier-extract',
-    cover: 'nWzvTXMadte1d11F1Ohyjr84U8', featured: true,
-    summary: 'A third-person extraction level through an abandoned carnival pier in a post-apocalyptic cityscape.',
-    meta: { type: 'Personal Project', timeline: 'Four Weeks', engine: 'UE5.6' },
+    cover: 'nWzvTXMadte1d11F1Ohyjr84U8', preview: 'preview-pier-extract', featured: true,
+    meta: ['Personal Project', 'Four Weeks'],
+    summary: 'Pier Extract: a third-person extraction level through an abandoned carnival pier, designed by Vamsi Kasina in Unreal Engine 5.6.',
   },
   {
     slug: 'furscape', title: 'Furscape', href: '/furscape',
-    cover: 'impLI30h2WnHs9RM2WiKszY14wg', featured: false,
-    summary: 'A solo-developed survival adventure about a lone puppy escaping the forest.',
-    meta: { type: 'Personal Project', timeline: 'Five Weeks', engine: 'UE5' },
+    cover: 'impLI30h2WnHs9RM2WiKszY14wg', preview: 'preview-furscape', featured: false,
+    meta: ['Personal Project', 'Five Weeks'],
+    summary: 'Furscape: a solo-developed Unreal Engine 5 game by Vamsi Kasina about an abandoned puppy escaping a forest.',
   },
   {
     slug: 'castle-infiltration', title: 'Castle Infiltration', href: '/castle-infiltration',
-    cover: 'D1KIqHWADlJXREigl2XUqAPAceQ', featured: false,
-    summary: 'A three-act infiltration mission to retrieve intel from a heavily guarded castle.',
-    meta: { type: 'Personal Project', timeline: 'Ongoing', engine: 'UE5' },
+    cover: 'D1KIqHWADlJXREigl2XUqAPAceQ', preview: 'vT3VXkc69pDq2EZhAdxiRl3XhY', featured: false,
+    meta: ['Personal Project', 'Ongoing'],
+    summary: 'Castle Infiltration: a three-act stealth level by Vamsi Kasina, from pre-production and blockout to level breakdown.',
   },
 ];
 

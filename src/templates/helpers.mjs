@@ -41,11 +41,14 @@ export function inline(text) {
   return s.replace(/\n/g, '<br>');
 }
 
-// Split text into per-character spans for the staggered "appear" text effect.
+// Split text into per-character spans for the staggered "appear" text effect. Letters are
+// grouped per word so lines can only break between words.
 export function letters(text, cls = 'ch') {
-  return [...text]
-    .map((c, i) => (c === ' ' ? ' ' : `<span class="${cls}" style="--i:${i}" aria-hidden="true">${esc(c)}</span>`))
-    .join('');
+  let i = 0;
+  return text
+    .split(' ')
+    .map((word) => `<span class="wg">${[...word].map((c) => `<span class="${cls}" style="--i:${i++}" aria-hidden="true">${esc(c)}</span>`).join('')}</span>`)
+    .join(' ');
 }
 
 export function words(text, cls = 'wd') {
@@ -55,10 +58,11 @@ export function words(text, cls = 'wd') {
     .join(' ');
 }
 
-export function img(id, { alt = '', cls, loading = 'lazy', sizes, style } = {}) {
+export function img(id, { alt = '', cls, loading = 'lazy', sizes = '(max-width: 809px) 100vw, 50vw', style, fetchpriority } = {}) {
   const m = mediaInfo(id);
   if (m.type === 'video') return video(id, { cls, style, alt });
-  return `<img ${attrs({ src: m.src, alt, width: m.width, height: m.height, loading, decoding: 'async', class: cls, sizes, style })}>`;
+  const srcset = m.thumb ? `${m.thumb} 720w, ${m.src} ${m.width}w` : undefined;
+  return `<img ${attrs({ src: m.src, srcset, sizes: srcset ? sizes : undefined, alt, width: m.width, height: m.height, loading, decoding: 'async', class: cls, style, fetchpriority })}>`;
 }
 
 // Videos (and GIFs converted to video) autoplay muted/looping once in view.

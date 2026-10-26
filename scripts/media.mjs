@@ -9,7 +9,7 @@
 //   .mp4  -> H.264 mp4 (<=1280px long edge, CRF 27, faststart) + .webp poster.
 //            Audio is kept only for clips longer than 30s (trailers / walkthroughs).
 //   .gif  -> silent looping H.264 mp4 + .webp poster (5-20x smaller than the GIF).
-//   .png/.jpg -> .webp (<=1920px, q82, alpha preserved).
+//   .png/.jpg -> .webp (<=1920px, q82, alpha preserved) + a 720w variant for srcset.
 //   .svg  -> copied verbatim.
 import { existsSync, mkdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
@@ -83,8 +83,28 @@ for (const url of sources) {
   }
   const dims = run('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', join(ROOT, 'public', entry.type === 'video' ? entry.poster : entry.src)]).trim().split(',');
   if (ext !== '.svg') { entry.width = +dims[0]; entry.height = +dims[1]; }
+  // 720w variant for srcset (cards and half-width case-study figures).
+  if (entry.type === 'image' && ext !== '.svg' && entry.width > 900) {
+    const thumb = join(OUT, `${id}-720.webp`);
+    if (FORCE || !existsSync(thumb)) run('convert', [join(ROOT, 'public', entry.src), '-resize', '720x', '-quality', '80', thumb]);
+    entry.thumb = `/media/${id}-720.webp`;
+  }
   manifest[id] = entry;
   process.stdout.write(`✓ ${id}${ext}\n`);
 }
+// Short silent hover-preview loops for project cards, cut from the trailers.
+const PREVIEWS = {
+  'preview-delumination': { from: 'njXzS9nOISL0LmFBXDVl5r9Ho', start: 0.5, dur: 6 },
+  'preview-pier-extract': { from: '5Mhmzm03gKO3PfLDGD446DXlNcI', start: 6, dur: 6 },
+  'preview-furscape': { from: '15j3CyPZwCsQpJOnCjjNDrDlM', start: 4, dur: 6 },
+};
+for (const [id, p] of Object.entries(PREVIEWS)) {
+  const out = join(OUT, `${id}.mp4`);
+  if (FORCE || !existsSync(out)) {
+    run('ffmpeg', ['-y', '-v', 'error', '-ss', String(p.start), '-t', String(p.dur), '-i', join(CACHE, `${p.from}.mp4`), '-vf', 'scale=640:-2', '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', '28', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out]);
+  }
+  manifest[id] = { type: 'video', src: `/media/${id}.mp4`, poster: manifest[p.from].poster, preview: true };
+}
+
 writeFileSync(join(ROOT, 'src/data/media.json'), JSON.stringify(manifest, null, 1) + '\n');
 console.log(`wrote ${Object.keys(manifest).length} entries to src/data/media.json`);
