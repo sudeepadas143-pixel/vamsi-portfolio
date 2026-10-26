@@ -1,0 +1,1122 @@
+{
+ "height": 6590,
+ "pb": 193,
+ "blocks": [
+  {
+   "type": "row",
+   "mt": 50,
+   "h": 72,
+   "cols": [
+    {
+     "x": 160,
+     "w": 608,
+     "items": [
+      {
+       "w": 608,
+       "h": 72,
+       "kind": "image",
+       "media": "lp0CnWYvkjrSh7zXoJMkBuyBC8",
+       "radius": "0px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 39,
+   "h": 27,
+   "cols": [
+    {
+     "x": 482,
+     "w": 110,
+     "items": [
+      {
+       "w": 110,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Software Used",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 54,
+   "cols": [
+    {
+     "x": 160,
+     "w": 80,
+     "items": [
+      {
+       "w": 80,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Inspiration",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 19,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 482,
+     "w": 195,
+     "items": [
+      {
+       "w": 195,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "UE5, Blueprints, Procreate, Perforce, Miro",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 90,
+   "cols": [
+    {
+     "x": 158,
+     "w": 146,
+     "items": [
+      {
+       "w": 37,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Type",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 2
+      },
+      {
+       "w": 122,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Personal Project",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 1,
+       "dx": 0
+      },
+      {
+       "w": 145,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "Assassins Creed 3\nDishonored",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": -19,
+       "dx": 1
+      }
+     ]
+    },
+    {
+     "x": 482,
+     "w": 141,
+     "items": [
+      {
+       "w": 141,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Project Breakdown",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 9,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 27,
+   "cols": [
+    {
+     "x": 159,
+     "w": 145,
+     "items": [
+      {
+       "w": 145,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Call of Duty",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 5,
+   "h": 26,
+   "cols": [
+    {
+     "x": 482,
+     "w": 236,
+     "items": [
+      {
+       "w": 236,
+       "h": 26,
+       "hidden": true,
+       "kind": "text",
+       "tag": "p",
+       "text": "Ongoing Project",
+       "font": {
+        "f": "dm",
+        "s": 15.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": -1,
+   "h": 26,
+   "cols": [
+    {
+     "x": 482,
+     "w": 236,
+     "items": [
+      {
+       "w": 236,
+       "h": 26,
+       "hidden": true,
+       "kind": "text",
+       "tag": "p",
+       "text": "AGLS Locomotion System is used",
+       "font": {
+        "f": "dm",
+        "s": 15.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 443,
+   "cols": [
+    {
+     "x": -1,
+     "w": 931,
+     "items": [
+      {
+       "w": 236,
+       "h": 26,
+       "hidden": true,
+       "kind": "text",
+       "tag": "p",
+       "text": "in this project",
+       "font": {
+        "f": "dm",
+        "s": 15.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 483
+      },
+      {
+       "w": 931,
+       "h": 439,
+       "kind": "image",
+       "media": "D1KIqHWADlJXREigl2XUqAPAceQ",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": -22,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 37,
+   "h": 140,
+   "cols": [
+    {
+     "x": 0,
+     "w": 928,
+     "items": [
+      {
+       "w": 928,
+       "h": 140,
+       "kind": "text",
+       "tag": "p",
+       "text": "**You play as an officer tasked with retrieving critical documents that reveal the location of an impending terrorist attack. The documents are heavily guarded inside an abandoned castle used as a hideout. To succeed, the player must stealthily infiltrate the castle and steal the intel without being detected.**",
+       "font": {
+        "f": "bs",
+        "s": 25.0,
+        "w": 700,
+        "c": "fg",
+        "lh": 1.4,
+        "ls": "1px"
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 43
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 43,
+   "cols": [
+    {
+     "x": 330,
+     "w": 268,
+     "items": [
+      {
+       "w": 268,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "Pre-Production",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 57,
+   "h": 238,
+   "cols": [
+    {
+     "x": 0,
+     "w": 437,
+     "items": [
+      {
+       "w": 437,
+       "h": 238,
+       "kind": "image",
+       "media": "lvbcDZ8ftmu1s1QICPeFAUMaEZM",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 446,
+     "w": 469,
+     "items": [
+      {
+       "w": 306,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "GATHERING REFERENCE MATERIAL",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "I began my process by gathering inspiring images, I believe that any material whether it being images, videos or music is worth gathering at this stage since it’s not only meant to be used as reference material but also as a source of inspiration.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 27,
+       "dx": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 70,
+   "h": 277,
+   "cols": [
+    {
+     "x": 0,
+     "w": 437,
+     "items": [
+      {
+       "w": 437,
+       "h": 277,
+       "kind": "image",
+       "media": "fqusqffWjBHww8hYY5tL6j10",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 446,
+     "w": 469,
+     "items": [
+      {
+       "w": 132,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "LEVEL SKETCH",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "I made a quick sketch to figure out how the player would naturally enter the castle, stumble through its ruined spaces, and eventually reach the main objective. After they grab it, I want the escape route to feel earned a cleaner, almost relieving shortcut that guides them out through a broken section of the walls.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 27,
+       "dx": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 81
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 43,
+   "cols": [
+    {
+     "x": 275,
+     "w": 379,
+     "items": [
+      {
+       "w": 379,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "BLOCKOUT PROCESS",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 423,
+   "cols": [
+    {
+     "x": 3,
+     "w": 922,
+     "items": [
+      {
+       "w": 922,
+       "h": 423,
+       "kind": "image",
+       "media": "vT3VXkc69pDq2EZhAdxiRl3XhY",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 89
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 43,
+   "cols": [
+    {
+     "x": 325,
+     "w": 277,
+     "items": [
+      {
+       "w": 277,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "Level Flowchart",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 553,
+   "cols": [
+    {
+     "x": 27,
+     "w": 875,
+     "items": [
+      {
+       "w": 875,
+       "h": 553,
+       "kind": "image",
+       "media": "MmqNRn1k9H3Yh3KFdx3pRnpLj6k",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 102
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 43,
+   "cols": [
+    {
+     "x": 333,
+     "w": 299,
+     "items": [
+      {
+       "w": 299,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "Level Breakdown",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 47,
+   "h": 426,
+   "cols": [
+    {
+     "x": 27,
+     "w": 875,
+     "items": [
+      {
+       "w": 875,
+       "h": 426,
+       "kind": "image",
+       "media": "YwLRUGYhIHD7fuWFjijA7bDitc",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 93
+  },
+  {
+   "type": "row",
+   "mt": 50,
+   "h": 43,
+   "cols": [
+    {
+     "x": -17,
+     "w": 105,
+     "items": [
+      {
+       "w": 105,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "ACT II",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 92,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "AhGNYiotSVhqSSRHMSFKwMWlz2c",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 399,
+     "w": 468,
+     "items": [
+      {
+       "w": 309,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Find Your Way into the Master Room",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "Once you slip into the castle, you find the master room locked, and breaking in would expose you instantly. Watching from a distance, you notice a forklift being used to move supplies inside, and you realize sneaking onto it is your only real way in.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 71,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "4bYguJtqjJanRP58qsnfwyWSF0",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 389,
+     "w": 468,
+     "items": [
+      {
+       "w": 127,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Explore Rooms",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 24,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "Inside the castle, you take your time exploring the nearby rooms, watching how the enemies move and where they’re positioned. You stay hidden, studying their patterns, waiting for the right moment to make your move.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 92,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "s3JPxf9UW3sZPPm7Ir105Cptbw",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 389,
+     "w": 468,
+     "items": [
+      {
+       "w": 92,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Assasinate",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 27,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 65,
+       "kind": "text",
+       "tag": "p",
+       "text": "Take down the Good's movers so you can use the forklift to get in the Master Room And Steal the documents.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 92
+  },
+  {
+   "type": "row",
+   "mt": 33,
+   "h": 43,
+   "cols": [
+    {
+     "x": -17,
+     "w": 115,
+     "items": [
+      {
+       "w": 115,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "ACT III",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 71,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "Kfv2GoK2AJfnQ9QHq5PsrfYC6os",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 399,
+     "w": 468,
+     "items": [
+      {
+       "w": 182,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Steal The Documents",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 27,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 65,
+       "kind": "text",
+       "tag": "p",
+       "text": "After stealing the documents, you immediately call for evacuation, hoping they can get a rescue helicopter to you before the whole place comes down on you.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 92,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "L7DbzoPKgV30Uom7eLHViYLfZQ",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 399,
+     "w": 468,
+     "items": [
+      {
+       "w": 209,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Eliminate Everyone(WIP)",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 28,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "Once the enemies are alerted, they swarm in and attack. You must eliminate every last one—only then will the rescue helicopter land. They can’t afford to lose another chopper.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 92,
+   "h": 272,
+   "cols": [
+    {
+     "x": -93,
+     "w": 471,
+     "items": [
+      {
+       "w": 471,
+       "h": 272,
+       "kind": "image",
+       "media": "yrGDb9f2mbc5ESV846YP2C2LOVU",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 399,
+     "w": 468,
+     "items": [
+      {
+       "w": 78,
+       "h": 22,
+       "kind": "text",
+       "tag": "p",
+       "text": "Evacuate",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 9,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "With the mission complete, you make your final escape.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 39,
+       "dx": 0
+      },
+      {
+       "w": 468,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "**MISSION ACCOMPLISHED**",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

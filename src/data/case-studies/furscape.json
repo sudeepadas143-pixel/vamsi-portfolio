@@ -1,0 +1,796 @@
+{
+ "height": 4398,
+ "pb": 120,
+ "blocks": [
+  {
+   "type": "row",
+   "mt": 50,
+   "h": 72,
+   "cols": [
+    {
+     "x": 246,
+     "w": 437,
+     "items": [
+      {
+       "w": 437,
+       "h": 72,
+       "kind": "image",
+       "media": "aXlDmHCcIs3BVi4FYy9JxA9No",
+       "radius": "0px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 66,
+   "h": 27,
+   "cols": [
+    {
+     "x": 0,
+     "w": 37,
+     "items": [
+      {
+       "w": 37,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Type",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 501,
+     "w": 176,
+     "items": [
+      {
+       "w": 176,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Gameplay Walkthrough",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": -2,
+   "h": 198,
+   "cols": [
+    {
+     "x": 0,
+     "w": 141,
+     "items": [
+      {
+       "w": 122,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Personal Project",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 3,
+       "dx": 0
+      },
+      {
+       "w": 80,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Inspiration",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 62,
+       "dx": 0
+      },
+      {
+       "w": 141,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "Real Life Incident\nStray",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 233,
+     "w": 197,
+     "items": [
+      {
+       "w": 195,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "UE5, Blueprints, Procreate, Miro",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 3,
+       "dx": 2
+      },
+      {
+       "w": 116,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Unreal Engine 5",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": -27,
+       "dx": 0
+      },
+      {
+       "w": 110,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Software Used",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 63,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Timeline",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 8,
+       "dx": 0
+      },
+      {
+       "w": 84,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Five Weeks",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 498,
+     "w": 331,
+     "items": [
+      {
+       "w": 331,
+       "h": 198,
+       "kind": "youtube",
+       "id": "m_GjTV5jNxo",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 63,
+   "h": 517,
+   "cols": [
+    {
+     "x": 0,
+     "w": 928,
+     "items": [
+      {
+       "w": 928,
+       "h": 517,
+       "kind": "video",
+       "media": "15j3CyPZwCsQpJOnCjjNDrDlM",
+       "radius": "0px",
+       "autoplay": true,
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 37,
+   "h": 175,
+   "cols": [
+    {
+     "x": 16,
+     "w": 911,
+     "items": [
+      {
+       "w": 911,
+       "h": 175,
+       "kind": "text",
+       "tag": "p",
+       "text": "**Furscape is my solo design and developed game on Unreal Engine 5. The game is based on an abandoned puppy in a forest named Chunnu, a challenge awaits for the player as they need to unveil their way through the forest avoiding obstacles and plan their escape. The idea for the entire project was inspired by a real life incident. **",
+       "font": {
+        "f": "bs",
+        "s": 25.0,
+        "w": 700,
+        "c": "bg",
+        "lh": 1.4,
+        "ls": "1px"
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 84
+  },
+  {
+   "type": "row",
+   "mt": 7,
+   "h": 331,
+   "cols": [
+    {
+     "x": 0,
+     "w": 495,
+     "items": [
+      {
+       "w": 231,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "INSPIRATION",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 2,
+       "dx": 149
+      },
+      {
+       "w": 495,
+       "h": 275,
+       "kind": "text",
+       "tag": "p",
+       "text": "**Furscape** is inspired by a real incident where my girlfriend and I rescued abandoned puppies after a trek. We cared for them and asked local kids to look after them, but after heavy rains one puppy fell sick and was left alone at a nearby farm. That moment sparked my passion for helping animals and became the emotional core of this game.\nThe story follows a lone puppy as she navigates and escapes the forest, avoiding traps and obstacles along the way.",
+       "font": {
+        "f": "dm",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 9,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 612,
+     "w": 292,
+     "items": [
+      {
+       "w": 292,
+       "h": 331,
+       "kind": "image",
+       "media": "wBe9TFe9vl4dNQrur6TjXSD9Rtc",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 25,
+   "h": 43,
+   "cols": [
+    {
+     "x": 332,
+     "w": 265,
+     "items": [
+      {
+       "w": 265,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "GAME PILLARS",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 10,
+   "h": 27,
+   "cols": [
+    {
+     "x": 91,
+     "w": 46,
+     "items": [
+      {
+       "w": 46,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Thrive",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "accent",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 395,
+     "w": 64,
+     "items": [
+      {
+       "w": 64,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Traverse",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "accent",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 728,
+     "w": 70,
+     "items": [
+      {
+       "w": 70,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Transpire",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "accent",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 7,
+   "h": 153,
+   "cols": [
+    {
+     "x": 16,
+     "w": 213,
+     "items": [
+      {
+       "w": 213,
+       "h": 153,
+       "kind": "text",
+       "tag": "p",
+       "text": "Navigate through\nchallenges and overcome\nthreats to ensure the\npuppy's survival in the\nforest.",
+       "font": {
+        "f": "dm",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 337,
+     "w": 213,
+     "items": [
+      {
+       "w": 213,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "Encourage players to explore the forest discover hidden areas and uncover secrets while searching for a way out.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 651,
+     "w": 263,
+     "items": [
+      {
+       "w": 263,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "Present obstacles and\ndangers such as predators\nand harsh environments to\ntest the player's resilience\nand determination.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 25
+  },
+  {
+   "type": "row",
+   "mt": 35,
+   "h": 43,
+   "cols": [
+    {
+     "x": 316,
+     "w": 315,
+     "items": [
+      {
+       "w": 315,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "DESIGN PROCESS",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 35,
+   "h": 240,
+   "cols": [
+    {
+     "x": 64,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "When I was designing the level I had to keep\nin mind that it is a puppy so the path shouldn’t\nbe very difficult and at the same time\nobstacles or the path wouldn’t be seen that\neasily as she is tiny.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 34,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "XwYrnoRk1ec3wkSK5EzeL3ngZYQ",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 35,
+   "h": 295,
+   "cols": [
+    {
+     "x": 16,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 295,
+       "kind": "image",
+       "media": "2Y2hb96O3PoEf3alizwSrani0s",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 460,
+     "w": 454,
+     "items": [
+      {
+       "w": 454,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "The primary objective of **Furscape** is to guide Chunnu safely through the forest to a place of safety. Along the way, players collect berries to restore health and increase their score while avoiding the dangerous threats lurking in the forest.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 73,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 64
+  },
+  {
+   "type": "row",
+   "mt": 19,
+   "h": 43,
+   "cols": [
+    {
+     "x": 370,
+     "w": 225,
+     "items": [
+      {
+       "w": 225,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "LEVEL FLOW",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 319,
+   "cols": [
+    {
+     "x": 142,
+     "w": 689,
+     "items": [
+      {
+       "w": 689,
+       "h": 319,
+       "kind": "image",
+       "media": "swDKzC3n6BtghyPTiAKAKU69NU",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 55
+  },
+  {
+   "type": "row",
+   "mt": 39,
+   "h": 750,
+   "cols": [
+    {
+     "x": 173,
+     "w": 626,
+     "items": [
+      {
+       "w": 626,
+       "h": 750,
+       "kind": "image",
+       "media": "aVkfwCusaPrvynKA7ZhEy8WrPGE",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 187,
+   "h": 27,
+   "cols": [
+    {
+     "x": 0,
+     "w": 464,
+     "items": [
+      {
+       "w": 464,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "RELATED PROJECTS",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 464,
+     "w": 464,
+     "items": [
+      {
+       "w": 464,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "[VIEW ALL PROJECTS](./projects)",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7,
+        "align": "right"
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 25
+  }
+ ]
+}

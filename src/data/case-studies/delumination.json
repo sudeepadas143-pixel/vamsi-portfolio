@@ -1,0 +1,800 @@
+{
+ "height": 4451,
+ "pb": 120,
+ "blocks": [
+  {
+   "type": "row",
+   "mt": 50,
+   "h": 72,
+   "cols": [
+    {
+     "x": 264,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 72,
+       "kind": "image",
+       "media": "8XwM7jFzvw2OASUtNE38iX63I",
+       "radius": "0px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 39,
+   "h": 27,
+   "cols": [
+    {
+     "x": 0,
+     "w": 78,
+     "items": [
+      {
+       "w": 78,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Team of 4",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 233,
+     "w": 110,
+     "items": [
+      {
+       "w": 110,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Software Used",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 253,
+   "cols": [
+    {
+     "x": 0,
+     "w": 124,
+     "items": [
+      {
+       "w": 105,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Group Project",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 59,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "My Role",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 117,
+       "dx": 0
+      },
+      {
+       "w": 124,
+       "h": 82,
+       "kind": "text",
+       "tag": "p",
+       "text": "Level Design\nSystem Design\nQuest Design",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 232,
+     "w": 196,
+     "items": [
+      {
+       "w": 195,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "UE5, Blueprints, Procreate, Perforce, Miro",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 1
+      },
+      {
+       "w": 63,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Timeline",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 90,
+       "dx": 0
+      },
+      {
+       "w": 94,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Four Months",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 1,
+       "dx": 1
+      }
+     ]
+    },
+    {
+     "x": 520,
+     "w": 379,
+     "items": [
+      {
+       "w": 379,
+       "h": 175,
+       "kind": "image",
+       "media": "NYdKeUHbtAGCtqgMnn90Plck",
+       "radius": "0px",
+       "fit": "cover",
+       "href": "https://futuregames.itch.io/delumination",
+       "mt": 13,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 87,
+   "h": 517,
+   "cols": [
+    {
+     "x": 0,
+     "w": 928,
+     "items": [
+      {
+       "w": 928,
+       "h": 517,
+       "kind": "video",
+       "media": "njXzS9nOISL0LmFBXDVl5r9Ho",
+       "radius": "0px",
+       "autoplay": true,
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 296
+  },
+  {
+   "type": "row",
+   "mt": 31,
+   "h": 300,
+   "cols": [
+    {
+     "x": 16,
+     "w": 507,
+     "items": [
+      {
+       "w": 256,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "LEVEL DESIGN",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 133
+      },
+      {
+       "w": 507,
+       "h": 92,
+       "kind": "text",
+       "tag": "p",
+       "text": "In level design, I focused on ideating and creating the harbor, upper-class district, island and the forgotten sanctum ensuring good pacing, flow, and performance.",
+       "font": {
+        "f": "dm",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 27,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 300,
+       "kind": "image",
+       "media": "jMySCKqUswXlsG4ObYuU6UA4Xtk",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 240,
+   "cols": [
+    {
+     "x": 0,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "phXvGUSkszURDZ61rHRKjj0EpFE",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "kk6Pvow0D50BWF1pDMI3G9eGD8E",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 31,
+   "h": 251,
+   "cols": [
+    {
+     "x": 0,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "yfSLv7WyP87ugKmMJs7jBLAoZbw",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 11,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "H9kOusbVd4uIlWE6CuTpFw4j5Kk",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 27
+  },
+  {
+   "type": "row",
+   "mt": 14,
+   "h": 240,
+   "cols": [
+    {
+     "x": 16,
+     "w": 507,
+     "items": [
+      {
+       "w": 268,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "QUEST DESIGN",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 133
+      },
+      {
+       "w": 507,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "I designed and implemented a quest inside the cave area I built. The puzzle involves rotating a set of shapes in the correct order, with the solution hinted at on a note the player can find inside the cave. Completing the puzzle unlocks a hidden treasure room that contains an important item needed for progression.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 25,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "t80BeYUpLkT9MN436MDmBBDq4",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 41,
+   "h": 240,
+   "cols": [
+    {
+     "x": 16,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "chQ9os6Z3s4n4O23GfiYZ9hD2MA",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 474,
+     "w": 454,
+     "items": [
+      {
+       "w": 191,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "The Issue?",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "alert",
+        "lh": 1.2
+       },
+       "mt": 7,
+       "dx": 125
+      },
+      {
+       "w": 454,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "Our game featured many NPC quest givers, and the level was divided into multiple sections, which could make it challenging and time-consuming for new players to understand where to go.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 24,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 42,
+   "h": 240,
+   "cols": [
+    {
+     "x": 20,
+     "w": 454,
+     "items": [
+      {
+       "w": 128,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "The Fix",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "alert",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 133
+      },
+      {
+       "w": 454,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "_An AI Dog Companion_\n_Who doesn’t love a pet dog? I helped ideate and create an AI companion that follows the player, and interacting with it triggers dialogue that tells the player their current objective, helping reduce confusion and speed up progression._",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 27,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 523,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "PcEHkPVxsBdEhk7NGLs9iFxtFg",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 46
+  },
+  {
+   "type": "row",
+   "mt": 27,
+   "h": 43,
+   "cols": [
+    {
+     "x": 249,
+     "w": 431,
+     "items": [
+      {
+       "w": 431,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "MAIN MENU SHOWCASE",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 400,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 9,
+   "h": 300,
+   "cols": [
+    {
+     "x": 206,
+     "w": 517,
+     "items": [
+      {
+       "w": 517,
+       "h": 300,
+       "kind": "video",
+       "media": "eK6tRFRUSCFAla7BN4Md2QhOTE",
+       "radius": "6px",
+       "autoplay": true,
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 9
+  },
+  {
+   "type": "row",
+   "mt": 25,
+   "h": 43,
+   "cols": [
+    {
+     "x": 277,
+     "w": 393,
+     "items": [
+      {
+       "w": 393,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "LIGHTING SHOWCASE",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 23,
+   "h": 226,
+   "cols": [
+    {
+     "x": 17,
+     "w": 469,
+     "items": [
+      {
+       "w": 469,
+       "h": 226,
+       "kind": "image",
+       "media": "tyKDM7Qijvkn2dRQLVM952jYEI",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 507,
+     "w": 404,
+     "items": [
+      {
+       "w": 404,
+       "h": 226,
+       "kind": "image",
+       "media": "FBu9BxogSDtt61mP64gg3baE",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 23,
+   "h": 43,
+   "cols": [
+    {
+     "x": 195,
+     "w": 112,
+     "items": [
+      {
+       "w": 112,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "Before",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 653,
+     "w": 83,
+     "items": [
+      {
+       "w": 83,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "After",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 273,
+   "h": 27,
+   "cols": [
+    {
+     "x": 0,
+     "w": 464,
+     "items": [
+      {
+       "w": 464,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "RELATED PROJECTS",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 464,
+     "w": 464,
+     "items": [
+      {
+       "w": 464,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "[VIEW ALL PROJECTS](../otherprojects)",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7,
+        "align": "right"
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 24
+  }
+ ]
+}

@@ -1,0 +1,1859 @@
+{
+ "height": 11000,
+ "pb": 129,
+ "blocks": [
+  {
+   "type": "row",
+   "mt": 350,
+   "h": 87,
+   "cols": [
+    {
+     "x": 264,
+     "w": 525,
+     "items": [
+      {
+       "w": 400,
+       "h": 65,
+       "kind": "image",
+       "media": "NzbKDsumgmtQkpAtDzVCBroizMw",
+       "radius": "0px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 185,
+       "h": 87,
+       "kind": "image",
+       "media": "ibpMyxSRwby6wRmjWjJcpCzxklw",
+       "radius": "0px",
+       "fit": "contain",
+       "mt": -65,
+       "dx": 340
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 17,
+   "h": 27,
+   "cols": [
+    {
+     "x": 0,
+     "w": 37,
+     "items": [
+      {
+       "w": 37,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Type",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 233,
+     "w": 110,
+     "items": [
+      {
+       "w": 110,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Software Used",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 498,
+     "w": 144,
+     "items": [
+      {
+       "w": 144,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Game Walkthrough",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 199,
+   "cols": [
+    {
+     "x": 0,
+     "w": 122,
+     "items": [
+      {
+       "w": 122,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Personal Project",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 83,
+       "dx": 0
+      },
+      {
+       "w": 80,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Inspiration",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": -20,
+       "dx": 0
+      },
+      {
+       "w": 91,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "Dark Souls\nElden Ring",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 233,
+     "w": 195,
+     "items": [
+      {
+       "w": 195,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "UE5, Blueprints, Procreate, Perforce, Miro",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 63,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Timeline",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg-30",
+        "lh": 1.7
+       },
+       "mt": 49,
+       "dx": 0
+      },
+      {
+       "w": 75,
+       "h": 27,
+       "kind": "text",
+       "tag": "p",
+       "text": "Six Weeks",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 500,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 498,
+     "w": 430,
+     "items": [
+      {
+       "w": 430,
+       "h": 198,
+       "kind": "youtube",
+       "id": "a4xQcbsh51U",
+       "mt": 1,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 283,
+   "h": 140,
+   "cols": [
+    {
+     "x": 15,
+     "w": 905,
+     "items": [
+      {
+       "w": 905,
+       "h": 140,
+       "kind": "text",
+       "tag": "p",
+       "text": "**In this project, my main goal was to create an Dark Souls style level -one that is highly interconnected and has multiple layers and hiding spaces for the asto explore. The challenge was to design different types of shortcuts while keeping the overall map layout interesting.**",
+       "font": {
+        "f": "dm",
+        "s": 25.0,
+        "w": 100,
+        "c": "fg",
+        "lh": 1.4,
+        "ls": "1px"
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 75
+  },
+  {
+   "type": "row",
+   "mt": 16,
+   "h": 38,
+   "cols": [
+    {
+     "x": 378,
+     "w": 173,
+     "items": [
+      {
+       "w": 173,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "OVERVIEW",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 12,
+   "h": 299,
+   "cols": [
+    {
+     "x": 10,
+     "w": 507,
+     "items": [
+      {
+       "w": 507,
+       "h": 109,
+       "kind": "text",
+       "tag": "p",
+       "text": "After completing alot of college group projects and assignments, I needed a break, I needed to make something I enjoy and what I always wanted to create so I started this project : to create a level for Dark Souls",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 507,
+       "h": 163,
+       "kind": "text",
+       "tag": "p",
+       "text": "A grim mountaintop town once shared its magical life-giving river with the valley below—until the nobles sealed the gates and kept the power for themselves. The valley died. Now a lone warrior is sent on a deadly mission: climb the forbidden mountain, infiltrate the corrupted town, kill the tyrant who controls the river, and bring back his head.",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 27,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 198,
+       "kind": "image",
+       "media": "M0Cv4Ve0Ran8zqkRu7cL0UQZs4",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 9,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 12,
+   "h": 38,
+   "cols": [
+    {
+     "x": 333,
+     "w": 280,
+     "items": [
+      {
+       "w": 280,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "DESIGN PROCESS",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 31,
+   "h": 54,
+   "cols": [
+    {
+     "x": 12,
+     "w": 904,
+     "items": [
+      {
+       "w": 904,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "At first, I considered using Japanese-style houses, but their wide, spaced-out layout didn’t fit the tight, clustered feel I wanted. Medieval housing worked better because it naturally creates narrow streets and compact spaces.",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 1,
+   "h": 54,
+   "cols": [
+    {
+     "x": 12,
+     "w": 904,
+     "items": [
+      {
+       "w": 904,
+       "h": 54,
+       "kind": "text",
+       "tag": "p",
+       "text": "Instead of spending time searching for references, I jumped straight into Unreal and began whiteboxing. This helped me quickly test layout density, player flow, combat spaces, and verticality while shaping the mood of the level.",
+       "font": {
+        "f": "dm",
+        "s": 16.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.7
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 70
+  },
+  {
+   "type": "row",
+   "mt": 47,
+   "h": 251,
+   "cols": [
+    {
+     "x": 0,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "KBmaw87eHHAbPvyYaOyMl6p4ZSo",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 11,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "kEOY8eWiHKsPRGc02xsHHqPIRYk",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 42,
+   "h": 240,
+   "cols": [
+    {
+     "x": 0,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "WSrE3v98ynzVY7IXetSk2Csjlk",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 528,
+     "w": 400,
+     "items": [
+      {
+       "w": 400,
+       "h": 240,
+       "kind": "image",
+       "media": "5I8rwQWH9qnCsFrLUcK7ufaJg4",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 31
+  },
+  {
+   "type": "row",
+   "mt": 17,
+   "h": 43,
+   "cols": [
+    {
+     "x": 376,
+     "w": 195,
+     "items": [
+      {
+       "w": 195,
+       "h": 43,
+       "kind": "text",
+       "tag": "p",
+       "text": "RESEARCH",
+       "font": {
+        "f": "inter",
+        "s": 36.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 13,
+   "h": 461,
+   "cols": [
+    {
+     "x": 0,
+     "w": 928,
+     "items": [
+      {
+       "w": 928,
+       "h": 461,
+       "kind": "image",
+       "media": "THuEm2LIAmABvs9YCCte0rElQ4",
+       "radius": "10px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 46,
+   "h": 38,
+   "cols": [
+    {
+     "x": 364,
+     "w": 200,
+     "items": [
+      {
+       "w": 200,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "BLUEPRINTS",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 41,
+   "h": 108,
+   "cols": [
+    {
+     "x": 64,
+     "w": 818,
+     "items": [
+      {
+       "w": 818,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "_I built several core gameplay systems in Blueprint, starting with a Souls-like player controller featuring slow, grounded movement with no jump. I also created three types of enemy AI: a basic enemy, a mini-boss, and a main boss. Additional systems include a health-potion healing mechanic, multiple weapon pickups, and a functional campfire that acts as both a save point and a respawn location._",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 8,
+   "h": 240,
+   "cols": [
+    {
+     "x": 64,
+     "w": 380,
+     "items": [
+      {
+       "w": 380,
+       "h": 240,
+       "kind": "iframe",
+       "src": "https://blueprintue.com/render/klao56ci/",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 473,
+     "w": 416,
+     "items": [
+      {
+       "w": 416,
+       "h": 234,
+       "kind": "iframe",
+       "src": "https://blueprintue.com/render/mfg15jvy/",
+       "mt": 3,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 8,
+   "h": 30,
+   "cols": [
+    {
+     "x": 168,
+     "w": 171,
+     "items": [
+      {
+       "w": 171,
+       "h": 30,
+       "kind": "text",
+       "tag": "p",
+       "text": "Boss Blueprint",
+       "font": {
+        "f": "inter",
+        "s": 25.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 540,
+     "w": 282,
+     "items": [
+      {
+       "w": 282,
+       "h": 30,
+       "kind": "text",
+       "tag": "p",
+       "text": "Master Enemy Blueprint",
+       "font": {
+        "f": "inter",
+        "s": 25.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 81,
+   "h": 38,
+   "cols": [
+    {
+     "x": 369,
+     "w": 171,
+     "items": [
+      {
+       "w": 171,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "ITERATION",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 64,
+   "h": 240,
+   "cols": [
+    {
+     "x": 23,
+     "w": 432,
+     "items": [
+      {
+       "w": 432,
+       "h": 240,
+       "kind": "image",
+       "media": "PvW2dl5098bbCNWOzdNDtP20E",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 476,
+     "w": 432,
+     "items": [
+      {
+       "w": 432,
+       "h": 240,
+       "kind": "image",
+       "media": "s9jp0530RtQ0OD4mmA6ESUmN0",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 47,
+   "h": 130,
+   "cols": [
+    {
+     "x": 55,
+     "w": 818,
+     "items": [
+      {
+       "w": 818,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "_With all core systems already functioning, I could jump into playtesting early. I usually begin with a simple idea like, “This area should feel like a narrow street,” and then whitebox it directly in the engine. Once the basic shape feels right, I make quick sketches on my iPad to explore alternative layouts and pacing ideas. I revise the blockout based on these sketches, then test the updated version with fresh players. Their reactions help me spot issues or confirm what works, and I keep iterating until the level delivers the experience I’m aiming for._",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 32
+  },
+  {
+   "type": "row",
+   "mt": 57,
+   "h": 38,
+   "cols": [
+    {
+     "x": 345,
+     "w": 239,
+     "items": [
+      {
+       "w": 239,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "DESIGN GOALS",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 40,
+   "h": 130,
+   "cols": [
+    {
+     "x": 55,
+     "w": 818,
+     "items": [
+      {
+       "w": 818,
+       "h": 130,
+       "kind": "text",
+       "tag": "p",
+       "text": "A key goal for this level was to include plenty of optional routes and hidden spaces alongside the main path. I didn’t want players to feel like they were repeating the same encounters every time they died; instead, they should naturally discover new shortcuts, secret rooms, or small rewards that keep each run feeling fresh. My main reference was **Undead Burg** from _Dark Souls 1_, which is full of clever hidden paths and satisfying callbacks. I aimed to recreate that sense of discovery and rewarding exploration in my own level.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 50,
+   "h": 290,
+   "cols": [
+    {
+     "x": 170,
+     "w": 588,
+     "items": [
+      {
+       "w": 588,
+       "h": 290,
+       "kind": "image",
+       "media": "SEqJaeypsEgaOqX6ljrfdEQXcO4",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 39
+  },
+  {
+   "type": "row",
+   "mt": 39,
+   "h": 38,
+   "cols": [
+    {
+     "x": 364,
+     "w": 200,
+     "items": [
+      {
+       "w": 200,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "SHORTCUTS",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 39,
+   "h": 108,
+   "cols": [
+    {
+     "x": 55,
+     "w": 818,
+     "items": [
+      {
+       "w": 818,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "One thing I love about Soulslike levels is how everything loops back into itself. You take a new path and suddenly you’re standing above an area you visited 20 minutes ago. To bring that feeling into my own level, I started by roughly sketching the main flow, then kept adding connections wherever it made sense. Little shortcuts, side routes, and overlaps slowly built up that familiar Soulslike layout where the world feels tight, intentional, and fun to navigate.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 17,
+   "h": 405,
+   "cols": [
+    {
+     "x": 172,
+     "w": 585,
+     "items": [
+      {
+       "w": 585,
+       "h": 405,
+       "kind": "image",
+       "media": "OaEqgeraof6acLmIjHEVJGByrSg",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 17
+  },
+  {
+   "type": "row",
+   "mt": 12,
+   "h": 38,
+   "cols": [
+    {
+     "x": 294,
+     "w": 365,
+     "items": [
+      {
+       "w": 365,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "LEVEL WALKTHROUGH",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 12,
+   "h": 86,
+   "cols": [
+    {
+     "x": 55,
+     "w": 853,
+     "items": [
+      {
+       "w": 853,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "I built the level in three main sections and tried to make verticality a big part of the experience. I wanted players to constantly spot interesting views, notice places they might reach later, and feel pulled toward exploring. Some routes involve a bit of risky platforming, but I like giving players the option to take those chances and earn something extra for going off the main path.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 6,
+   "h": 297,
+   "cols": [
+    {
+     "x": 52,
+     "w": 416,
+     "items": [
+      {
+       "w": 416,
+       "h": 294,
+       "kind": "image",
+       "media": "u2u25MBTnrd9wUFwWTTeUnRec8",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 2,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 496,
+     "w": 416,
+     "items": [
+      {
+       "w": 416,
+       "h": 297,
+       "kind": "image",
+       "media": "ArO4G4zU6evH6eHZLZilW01MiyA",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 32
+  },
+  {
+   "type": "row",
+   "mt": 20,
+   "h": 38,
+   "cols": [
+    {
+     "x": 272,
+     "w": 384,
+     "items": [
+      {
+       "w": 384,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "MID TOWN AND CASTLE",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 218,
+   "cols": [
+    {
+     "x": 54,
+     "w": 372,
+     "items": [
+      {
+       "w": 372,
+       "h": 218,
+       "kind": "image",
+       "media": "6Nlv4yl66LiADn69VfKm662vxg",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 483,
+     "w": 432,
+     "items": [
+      {
+       "w": 432,
+       "h": 218,
+       "kind": "image",
+       "media": "GYMRIC662P5dCBZ1Pt4XQDAqk",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 320,
+   "cols": [
+    {
+     "x": 32,
+     "w": 571,
+     "items": [
+      {
+       "w": 571,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "Mid-town is where the level opens up and gives the player a good look at the mountain-side houses and the Middle Area they’ll eventually reach. Wooden planks and makeshift walkways naturally guide the player forward.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      },
+      {
+       "w": 571,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "When the player enters this area, they’ll notice a locked gate, but it isn’t meant to be opened from here. Later in the level, they can reach this locked section either by taking an optional path from the castle or by riding an elevator from the middle area. This creates a nice shortcut and makes the world feel more connected.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 635,
+     "w": 280,
+     "items": [
+      {
+       "w": 280,
+       "h": 320,
+       "kind": "image",
+       "media": "gDgyUhPVMmcpQQiEwXvhnhLYd7Y",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 24
+  },
+  {
+   "type": "row",
+   "mt": 22,
+   "h": 38,
+   "cols": [
+    {
+     "x": 222,
+     "w": 468,
+     "items": [
+      {
+       "w": 468,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "Mid Town Locked Area Layout",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 13,
+   "h": 218,
+   "cols": [
+    {
+     "x": 32,
+     "w": 590,
+     "items": [
+      {
+       "w": 590,
+       "h": 218,
+       "kind": "image",
+       "media": "qNMEe8EQ5KkMvQx09rKCXS1Noo",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 694,
+     "w": 221,
+     "items": [
+      {
+       "w": 221,
+       "h": 218,
+       "kind": "image",
+       "media": "hXtWjewesAh3GAUjeVkyqzZZjic",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 38,
+   "cols": [
+    {
+     "x": 356,
+     "w": 218,
+     "items": [
+      {
+       "w": 218,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "MIDDLE AREA",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 0,
+   "h": 218,
+   "cols": [
+    {
+     "x": 32,
+     "w": 597,
+     "items": [
+      {
+       "w": 597,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "Coming out of the castle, the player reaches the middle area. From here, they can take an optional path and use the elevator to drop down into the locked section from earlier. This works as a quick backtracking shortcut if they ever need to return to the lower areas.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 30,
+       "dx": 0
+      },
+      {
+       "w": 597,
+       "h": 65,
+       "kind": "text",
+       "tag": "p",
+       "text": "If they stick to the main path, they can head right and take on the next enemy. Beating this enemy unlocks the gate that leads into the stone alley, moving the level forward.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 694,
+     "w": 221,
+     "items": [
+      {
+       "w": 221,
+       "h": 218,
+       "kind": "image",
+       "media": "4tUhcTWpSyvgXrYzxL9wi4CBfQ",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 269,
+   "cols": [
+    {
+     "x": 32,
+     "w": 883,
+     "items": [
+      {
+       "w": 883,
+       "h": 269,
+       "kind": "image",
+       "media": "Z55XmJPYXGgH3eKyKNY1g8eKgw",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 20
+  },
+  {
+   "type": "row",
+   "mt": 9,
+   "h": 38,
+   "cols": [
+    {
+     "x": 364,
+     "w": 220,
+     "items": [
+      {
+       "w": 220,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "STONE ALLEY",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 65,
+   "cols": [
+    {
+     "x": 33,
+     "w": 883,
+     "items": [
+      {
+       "w": 883,
+       "h": 65,
+       "kind": "text",
+       "tag": "p",
+       "text": "From here, the player enters Stone Alley. This area splits into two choices: they can follow the main path toward the upper area, or explore an optional route. The optional path gives the player a nice scenic spot and a new weapon to help with the upcoming encounters.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 43,
+   "h": 298,
+   "cols": [
+    {
+     "x": 32,
+     "w": 432,
+     "items": [
+      {
+       "w": 432,
+       "h": 298,
+       "kind": "image",
+       "media": "Vy5GZfhJDM9fNknBMYeZkMiAZI",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    },
+    {
+     "x": 484,
+     "w": 432,
+     "items": [
+      {
+       "w": 432,
+       "h": 298,
+       "kind": "image",
+       "media": "Zprl5EAkrEwuXZqt2ahtSSJwWLE",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 20
+  },
+  {
+   "type": "row",
+   "mt": 9,
+   "h": 38,
+   "cols": [
+    {
+     "x": 352,
+     "w": 262,
+     "items": [
+      {
+       "w": 262,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "UPPER DISTRICT",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 65,
+   "cols": [
+    {
+     "x": 32,
+     "w": 883,
+     "items": [
+      {
+       "w": 883,
+       "h": 65,
+       "kind": "text",
+       "tag": "p",
+       "text": "The player now reaches the upper district, which is much closer to the final boss. This area gives them a bit of breathing room to look around, pick up upgrades, and improve their weapons before moving forward. Once they’re ready, they can continue toward the final encounter.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 42,
+   "h": 492,
+   "cols": [
+    {
+     "x": 32,
+     "w": 883,
+     "items": [
+      {
+       "w": 883,
+       "h": 492,
+       "kind": "image",
+       "media": "mI4t6T5ytiwpUs9Bc3J8wHJuo",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 35
+  },
+  {
+   "type": "row",
+   "mt": 9,
+   "h": 38,
+   "cols": [
+    {
+     "x": 319,
+     "w": 328,
+     "items": [
+      {
+       "w": 328,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "THE HIGH SANCTUM",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 492,
+   "cols": [
+    {
+     "x": 32,
+     "w": 883,
+     "items": [
+      {
+       "w": 883,
+       "h": 492,
+       "kind": "image",
+       "media": "XlELi3lw3JkCkUrMebll3zAXBSs",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 20
+  },
+  {
+   "type": "row",
+   "mt": 18,
+   "h": 38,
+   "cols": [
+    {
+     "x": 321,
+     "w": 305,
+     "items": [
+      {
+       "w": 305,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "QUEEN'S QUARTER",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 19,
+   "h": 298,
+   "cols": [
+    {
+     "x": 116,
+     "w": 716,
+     "items": [
+      {
+       "w": 716,
+       "h": 298,
+       "kind": "image",
+       "media": "Mf6vxhOWlkUdwmvAfhVDrowLW8",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 108,
+   "cols": [
+    {
+     "x": 32,
+     "w": 884,
+     "items": [
+      {
+       "w": 884,
+       "h": 108,
+       "kind": "text",
+       "tag": "p",
+       "text": "The Queen’s Quarter is the final stretch of the level. Here, the player gets one last chance to upgrade their weapon before stepping into the Queen’s lair for the final fight. There’s also an optional side path for players who want extra loot before the boss. On top of that, this area includes an elevator shortcut that connects back to the middle area, making it easy to backtrack if the player needs to return for supplies or missed items.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 20
+  },
+  {
+   "type": "row",
+   "mt": 14,
+   "h": 298,
+   "cols": [
+    {
+     "x": 116,
+     "w": 716,
+     "items": [
+      {
+       "w": 716,
+       "h": 298,
+       "kind": "image",
+       "media": "WaSve0zNHTQzZPNwdDSK8P6cc",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "mt": 20
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 38,
+   "cols": [
+    {
+     "x": 216,
+     "w": 520,
+     "items": [
+      {
+       "w": 520,
+       "h": 38,
+       "kind": "text",
+       "tag": "p",
+       "text": "DEMON'S DUNGEON (SIDE PATH)",
+       "font": {
+        "f": "inter",
+        "s": 32.0,
+        "w": 700,
+        "c": "accent",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 30,
+   "h": 86,
+   "cols": [
+    {
+     "x": 32,
+     "w": 884,
+     "items": [
+      {
+       "w": 884,
+       "h": 86,
+       "kind": "text",
+       "tag": "p",
+       "text": "Near the Queen’s Quarter, there’s an optional area called Demon’s Dungeon. Inside, the player can fight a powerful demon who carries a special weapon that the Queen is weak to. If the final boss feels too hard, players can choose to explore this dungeon first, defeat the demon, and claim the weapon to make the last fight much more manageable.",
+       "font": {
+        "f": "inter",
+        "s": 18.0,
+        "w": 400,
+        "c": "fg",
+        "lh": 1.2
+       },
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "mt": 57,
+   "h": 365,
+   "cols": [
+    {
+     "x": 116,
+     "w": 716,
+     "items": [
+      {
+       "w": 716,
+       "h": 365,
+       "kind": "image",
+       "media": "UgqH8undcV09JNhUgJ5fO2s4",
+       "radius": "6px",
+       "fit": "cover",
+       "mt": 0,
+       "dx": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
