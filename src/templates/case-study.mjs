@@ -36,8 +36,12 @@ function zoomable(inner, label) {
 
 // Text that was centred in its column (by position) becomes full-width centred text,
 // so it stays centred when the type scale changes.
+// Paragraphs whose box was centred keep left-aligned text (as in the original); only headings and
+// short lines are centre-aligned.
 function centred(it, colW) {
-  return it.kind === 'text' && it.tag !== 'ul' && it.w < colW - 8 && Math.abs((it.dx || 0) + it.w / 2 - colW / 2) < 12;
+  if (it.kind !== 'text' || it.tag === 'ul') return false;
+  const short = it.font.s >= 20 || it.text.replace(/[*_]/g, '').length <= 60;
+  return short && it.w < colW - 8 && Math.abs((it.dx || 0) + it.w / 2 - colW / 2) < 12;
 }
 
 function item(it, colW, ctx) {

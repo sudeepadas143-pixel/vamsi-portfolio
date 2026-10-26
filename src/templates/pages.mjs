@@ -50,7 +50,7 @@ export function home() {
   <section class="hero" aria-label="Intro">
     <p class="hero__role" data-split-words><span class="sr-only">${esc(site.role)}</span><span aria-hidden="true">${words(site.role)}</span></p>
     <div class="hero__name">
-      <h1 class="hero__title"><span class="sr-only">${esc(site.name)}, level and game designer</span><span class="hero__line hero__line--1" data-split aria-hidden="true">${letters(site.firstName)}</span><span class="hero__line hero__line--2" data-split aria-hidden="true">${letters(site.lastName)}</span></h1>
+      <h1 class="hero__title"><span class="sr-only">${esc(site.name)}, level and game designer</span><span class="hero__line hero__line--1" data-split aria-hidden="true">${letters(site.firstName)}</span><span class="hero__line hero__line--2" data-rise aria-hidden="true">${esc(site.lastName)}</span></h1>
       <div class="hero__reel" data-appear-scale>
         <div class="hero__parallax" data-mouse-parallax>
           <button class="reel-card" type="button" data-reel data-cursor="PLAY" aria-haspopup="dialog">

@@ -12,6 +12,7 @@ npm run build      # render dist/ (no dependencies needed)
 npm run dev        # build + serve dist/ on http://localhost:4173
 npm test           # build + static checks + Playwright browser tests
 npm run media      # re-download original media and re-encode (needs ffmpeg + ImageMagick)
+node scripts/springs.mjs   # regenerate the CSS linear() easings for the original's springs
 ```
 
 Browser tests need Playwright with Chromium (`npm install && npx playwright install chromium`).
@@ -29,7 +30,7 @@ src/js/main.js                motion + interaction runtime (no dependencies)
 public/                       fonts (OFL) and optimised media
 scripts/                      build, dev server, media pipeline
 tests/                        node:test suites (static + browser)
-tools/reverse-engineering/    capture/measurement scripts used to rebuild the site
+tools/reverse-engineering/    capture, motion-sampling (motion.cjs, trigger.cjs, jank.cjs) and comparison scripts
 ```
 
 ## Editing content
