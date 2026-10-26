@@ -113,7 +113,10 @@ a:focus-visible > .roll .nch { translate: 0 -1.4em; }
 .home-nav__link, .sub-nav__link { display: inline-block; transition: transform var(--spring-snap-d) var(--spring-snap); }
 .home-nav__link:active, .sub-nav__link:active { transform: scale(0.9); }
 .home-nav__mark, .home-nav .menu-btn { display: none; }
-.home-nav__spark { width: 28px; height: 28px; color: var(--c-accent); }
+.home-nav__sig { width: 44px; height: auto; aspect-ratio: 147 / 118; overflow: visible; color: var(--c-accent); }
+/* The signature writes itself in with the load sequence, like the one in the About section. */
+.js .home-nav__sig path { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.js .home-nav.is-in .home-nav__sig path { stroke-dashoffset: 0; transition: stroke-dashoffset 1.2s var(--ease-in-out) calc(var(--load) + 262ms); }
 
 .sub-nav { position: sticky; top: 0; z-index: 20; transition: transform 0.45s var(--ease-out); }
 .sub-nav::before { content: ''; position: absolute; inset: 0; background: rgba(18, 18, 18, 0.82); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid transparent; transition: border-color 0.3s; }

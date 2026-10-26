@@ -1,6 +1,6 @@
 import { site, nav, projects } from '../data/site.mjs';
 import { esc, letters, link, img, mediaInfo } from './helpers.mjs';
-import { back, sparkle, linkedin, arrowUpRight } from './icons.mjs';
+import { back, sparkle, linkedin, arrowUpRight, signature } from './icons.mjs';
 
 const ORIGIN = 'https://vamsi-kasina.com';
 
@@ -52,7 +52,7 @@ export function homeNav() {
   <nav class="home-nav__links" aria-label="Primary">
     ${nav.map((n) => navLink(n, 'home-nav__link')).join('\n    ')}
   </nav>
-  <a class="home-nav__mark" href="/" aria-label="${esc(site.name)}, home">${sparkle('home-nav__spark')}</a>
+  <a class="home-nav__mark" href="/" aria-label="${esc(site.name)}, home">${signature('home-nav__sig')}</a>
   ${menuButton()}
 </header>`;
 }
