@@ -2,9 +2,9 @@ import { site, nav, projects } from '../data/site.mjs';
 import { esc, letters, link, img, mediaInfo } from './helpers.mjs';
 import { back, sparkle, linkedin, arrowUpRight, signature } from './icons.mjs';
 
-const ORIGIN = 'https://vamsi-kasina.com';
+const ORIGIN = 'https://www.vamsi-kasina.com';
 
-export function page({ title = site.title, description = site.description, path = '/', body, bodyClass = '', image = '/media/8NDoYYbqyMg6ztDoOZDRI1NQ.webp' }) {
+export function page({ title = site.title, description = site.description, path = '/', body, bodyClass = '', image = '/og-vamsi.jpg' }) {
   const url = `${ORIGIN}${path}`;
   return `<!doctype html>
 <html lang="en">
@@ -20,6 +20,8 @@ export function page({ title = site.title, description = site.description, path 
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:image" content="${ORIGIN}${image}">
+${image === '/og-vamsi.jpg' ? '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta property="og:image:alt" content="Vamsi Kasina, level and game designer">' : ''}
+<meta name="twitter:image" content="${ORIGIN}${image}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#121212">
 <meta name="color-scheme" content="dark">

@@ -21,7 +21,7 @@ test('every original route is built, plus 404 and sitemap', () => {
   for (const r of ROUTES) assert.ok(existsSync(join(DIST, r, 'index.html')), `missing ${r}`);
   assert.ok(existsSync(join(DIST, '404.html')));
   const sitemap = readFileSync(join(DIST, 'sitemap.xml'), 'utf8');
-  for (const r of ROUTES) assert.ok(sitemap.includes(`https://vamsi-kasina.com${r}<`), `sitemap lacks ${r}`);
+  for (const r of ROUTES) assert.ok(sitemap.includes(`https://www.vamsi-kasina.com${r}<`), `sitemap lacks ${r}`);
 });
 
 test('internal links and local assets resolve', () => {
