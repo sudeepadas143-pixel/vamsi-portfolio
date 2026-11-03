@@ -146,6 +146,7 @@ function expItem(x, { large = false, headingTag = 'h3' } = {}) {
     <div>
       <${headingTag} class="edu__title">${esc(x.role)}</${headingTag}>
       <p class="edu__meta">${esc(x.company)}</p>
+      ${x.note ? `<p class="edu__note">${esc(x.note)}</p>` : ''}
       ${x.link ? `<p class="edu__links">${link(x.link.href, `${esc(x.link.label)} ${arrowUpRight()}`, { class: 'btn btn--small' })}</p>` : ''}
     </div>
   </article>`;

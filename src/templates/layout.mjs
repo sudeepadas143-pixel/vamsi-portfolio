@@ -76,7 +76,8 @@ export function subNav({ back: showBack = true } = {}) {
 
 // Full-screen menu (phones/tablets): oversized links, the site's typographic signature.
 function menu() {
-  const items = [{ label: 'HOME', href: '/' }, ...nav, { label: 'EXPERIENCE', href: '/experience' }, { label: 'EDUCATION', href: '/education' }, { label: 'CONTACT', href: '/contact' }];
+  // Experience sits right after Projects: it is the most important thing after the work itself.
+  const items = [{ label: 'HOME', href: '/' }, nav[0], { label: 'EXPERIENCE', href: '/experience' }, ...nav.slice(1), { label: 'EDUCATION', href: '/education' }, { label: 'CONTACT', href: '/contact' }];
   return `<div class="menu" id="site-menu" hidden>
   <nav aria-label="Menu">
     <ol class="menu__list">

@@ -283,7 +283,9 @@ a.sep:focus-visible .sep__bot { width: 22px; transform: translateY(8px) rotate(-
 .edu-teaser .education, .experience .education { width: auto; margin-top: 48px; }
 .edu--media { display: flex; align-items: center; gap: 20px; }
 .edu__thumb { flex: none; width: 88px; height: 88px; border-radius: 8px; object-fit: cover; }
+.edu__note { margin-top: 8px; font: italic 400 15px/1.6 var(--f-body); color: var(--c-fg-80); }
 .edu__links { margin-top: 14px; }
+.edu--large .edu__note { margin-top: 16px; font-size: 17px; }
 .btn--small { padding: 8px 14px 7px; font-size: 15px; }
 .experience-list { width: min(var(--col), 100% - 2 * var(--gutter)); margin: clamp(56px, 7vw, 100px) auto 0; display: grid; gap: 48px; }
 .edu--large { gap: 40px; padding-top: 32px; }

@@ -84,6 +84,7 @@ export const experience = [
     role: 'Level Design Intern',
     company: 'Resonant Q at Japan Productions',
     image: { src: '/media/resonant-q.webp', width: 480, height: 480, alt: 'Resonant Q key art' },
+    note: 'I can’t reveal what I’m working on until release.',
     link: { label: 'View on Steam', href: 'https://store.steampowered.com/app/4097280/Resonant_Q/' },
   },
 ];
