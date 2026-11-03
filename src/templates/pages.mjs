@@ -78,6 +78,11 @@ export function home() {
     </div>
   </section>
 
+  <section class="section section--wide experience-home" aria-labelledby="exp-home-title">
+    ${separator('EXPERIENCE', '/experience', { id: 'exp-home-title' })}
+    <div class="experience-home__list">${experience.map((x) => expItem(x, { large: true })).join('')}</div>
+  </section>
+
   <section class="section section--wide others-section" aria-labelledby="others-title">
     ${separator('OTHER PROJECTS', '/otherprojects', { id: 'others-title' })}
     <div class="projects-grid projects-grid--two">
