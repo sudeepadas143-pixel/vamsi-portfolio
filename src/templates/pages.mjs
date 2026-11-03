@@ -1,4 +1,4 @@
-import { site, tools, about, education, tickerWords } from '../data/site.mjs';
+import { site, tools, about, education, experience, tickerWords } from '../data/site.mjs';
 import { esc, img, mediaInfo, letters, words, link } from './helpers.mjs';
 import { page, homeNav, subNav, separator, contactLines, pageTitle, projectCard, footer, featured, others } from './layout.mjs';
 import { sparkle, linkedin, signature, arrowUpRight } from './icons.mjs';
@@ -110,6 +110,10 @@ export function aboutPage() {
     description: 'About Vamsi Kasina: a level and game designer in Stockholm with a background in animation and motion graphics.',
     main: `${pageTitle('ABOUT')}
 <section class="section-flush">${aboutBlock({ lead: true })}</section>
+<section class="section experience" aria-labelledby="exp-title">
+  ${separator('EXPERIENCE', null, { id: 'exp-title' })}
+  <div class="education education--compact">${experience.map(expItem).join('')}</div>
+</section>
 <section class="section edu-teaser" aria-labelledby="edu-title">
   ${separator('EDUCATION', '/education', { id: 'edu-title' })}
   <div class="education education--compact">${education.map(eduItem).join('')}</div>
@@ -133,6 +137,17 @@ export function contactPage() {
   </div>
 </section>`,
   });
+}
+
+// Same entry style as education; the project art sits beside the text.
+function expItem(x) {
+  return `<article class="edu edu--media" data-reveal>
+    <img class="edu__thumb" src="${esc(x.image.src)}" alt="${esc(x.image.alt)}" width="${x.image.width}" height="${x.image.height}" loading="lazy" decoding="async">
+    <div>
+      <h3 class="edu__title">${esc(x.role)}</h3>
+      <p class="edu__meta">${esc(x.company)}</p>
+    </div>
+  </article>`;
 }
 
 function eduItem(e) {

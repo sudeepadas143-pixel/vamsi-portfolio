@@ -280,7 +280,9 @@ a.sep:focus-visible .sep__bot { width: 22px; transform: translateY(8px) rotate(-
 .about__ctas { display: flex; flex-wrap: wrap; gap: 12px; }
 .about__right .about__ctas { margin-top: 36px; }
 
-.edu-teaser .education { margin-top: 48px; }
+.edu-teaser .education, .experience .education { width: auto; margin-top: 48px; }
+.edu--media { display: flex; align-items: center; gap: 20px; }
+.edu__thumb { flex: none; width: 88px; height: 88px; border-radius: 8px; object-fit: cover; }
 
 /* ---------- Footer ---------- */
 .footer { margin-top: var(--section); padding-bottom: 32px; }

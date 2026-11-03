@@ -78,6 +78,15 @@ export const about = [
   'Outside of video games, I enjoy fishing, cooking and drawing.',
 ];
 
+// Work experience. Only the details supplied by Vamsi; add dates or a description when available.
+export const experience = [
+  {
+    role: 'Level Design Intern',
+    company: 'Resonant Q at Japan Productions',
+    image: { src: '/media/resonant-q.webp', width: 480, height: 480, alt: 'Resonant Q key art' },
+  },
+];
+
 export const education = [
   {
     title: 'Game Design, Higher Vocational Diploma',
