@@ -14,6 +14,7 @@ const routes = {
   '/about': pages.aboutPage(),
   '/contact': pages.contactPage(),
   '/education': pages.educationPage(),
+  '/experience': pages.experiencePage(),
   '/projects': pages.projectsPage(),
   '/otherprojects': pages.otherProjectsPage(),
   ...Object.fromEntries(caseStudies.map((cs) => [cs.path, caseStudyPage(cs)])),

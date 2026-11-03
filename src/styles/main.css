@@ -283,6 +283,14 @@ a.sep:focus-visible .sep__bot { width: 22px; transform: translateY(8px) rotate(-
 .edu-teaser .education, .experience .education { width: auto; margin-top: 48px; }
 .edu--media { display: flex; align-items: center; gap: 20px; }
 .edu__thumb { flex: none; width: 88px; height: 88px; border-radius: 8px; object-fit: cover; }
+.edu__links { margin-top: 14px; }
+.btn--small { padding: 8px 14px 7px; font-size: 15px; }
+.experience-list { width: min(var(--col), 100% - 2 * var(--gutter)); margin: clamp(56px, 7vw, 100px) auto 0; display: grid; gap: 48px; }
+.edu--large { gap: 40px; padding-top: 32px; }
+.edu--large .edu__thumb { width: min(320px, 40%); height: auto; aspect-ratio: 1; border-radius: 10px; }
+.edu--large .edu__title { font: 900 clamp(40px, 5vw, 64px)/1 var(--f-display); letter-spacing: 0.01em; text-transform: uppercase; color: var(--c-fg); }
+.edu--large .edu__meta { margin-top: 12px; font-size: 18px; }
+.edu--large .edu__links { margin-top: 28px; }
 
 /* ---------- Footer ---------- */
 .footer { margin-top: var(--section); padding-bottom: 32px; }
@@ -618,6 +626,8 @@ dialog::backdrop { background: rgba(8, 8, 8, 0.92); -webkit-backdrop-filter: blu
 }
 
 @media (max-width: 600px) {
+  .edu--large { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .edu--large .edu__thumb { width: 100%; max-width: 420px; }
   :root { --rise: 32px; }
   /* Phones: one column. Tablets (601-809px) keep the measured two-column compositions. */
   .projects-grid, .projects-grid--two { grid-template-columns: 1fr; gap: 40px; margin-top: 32px; }

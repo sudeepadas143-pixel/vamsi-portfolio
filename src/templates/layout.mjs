@@ -76,7 +76,7 @@ export function subNav({ back: showBack = true } = {}) {
 
 // Full-screen menu (phones/tablets): oversized links, the site's typographic signature.
 function menu() {
-  const items = [{ label: 'HOME', href: '/' }, ...nav, { label: 'EDUCATION', href: '/education' }, { label: 'CONTACT', href: '/contact' }];
+  const items = [{ label: 'HOME', href: '/' }, ...nav, { label: 'EXPERIENCE', href: '/experience' }, { label: 'EDUCATION', href: '/education' }, { label: 'CONTACT', href: '/contact' }];
   return `<div class="menu" id="site-menu" hidden>
   <nav aria-label="Menu">
     <ol class="menu__list">
@@ -112,6 +112,7 @@ export function footer() {
     <ul class="footer__links">
       <li>${link(site.resume, `Resume ${arrowUpRight()}`, { class: 'footer__link' })}</li>
       <li>${link(site.linkedin, `LinkedIn ${arrowUpRight()}`, { class: 'footer__link' })}</li>
+      <li>${link('/experience', 'Experience', { class: 'footer__link' })}</li>
       <li>${link('/education', 'Education', { class: 'footer__link' })}</li>
       <li>${link('/about', 'About', { class: 'footer__link' })}</li>
     </ul>

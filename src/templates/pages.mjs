@@ -111,8 +111,8 @@ export function aboutPage() {
     main: `${pageTitle('ABOUT')}
 <section class="section-flush">${aboutBlock({ lead: true })}</section>
 <section class="section experience" aria-labelledby="exp-title">
-  ${separator('EXPERIENCE', null, { id: 'exp-title' })}
-  <div class="education education--compact">${experience.map(expItem).join('')}</div>
+  ${separator('EXPERIENCE', '/experience', { id: 'exp-title' })}
+  <div class="education education--compact">${experience.map((x) => expItem(x)).join('')}</div>
 </section>
 <section class="section edu-teaser" aria-labelledby="edu-title">
   ${separator('EDUCATION', '/education', { id: 'edu-title' })}
@@ -140,14 +140,24 @@ export function contactPage() {
 }
 
 // Same entry style as education; the project art sits beside the text.
-function expItem(x) {
-  return `<article class="edu edu--media" data-reveal>
+function expItem(x, { large = false, headingTag = 'h3' } = {}) {
+  return `<article class="edu edu--media${large ? ' edu--large' : ''}" data-reveal>
     <img class="edu__thumb" src="${esc(x.image.src)}" alt="${esc(x.image.alt)}" width="${x.image.width}" height="${x.image.height}" loading="lazy" decoding="async">
     <div>
-      <h3 class="edu__title">${esc(x.role)}</h3>
+      <${headingTag} class="edu__title">${esc(x.role)}</${headingTag}>
       <p class="edu__meta">${esc(x.company)}</p>
+      ${x.link ? `<p class="edu__links">${link(x.link.href, `${esc(x.link.label)} ${arrowUpRight()}`, { class: 'btn btn--small' })}</p>` : ''}
     </div>
   </article>`;
+}
+
+export function experiencePage() {
+  return subPage({
+    title: 'Experience', path: '/experience', bodyClass: 'page-experience',
+    description: 'Experience of Vamsi Kasina: Level Design Intern on Resonant Q at Japan Productions.',
+    main: `${pageTitle('EXPERIENCE')}
+<section class="experience-list">${experience.map((x) => expItem(x, { large: true, headingTag: 'h2' })).join('\n')}</section>`,
+  });
 }
 
 function eduItem(e) {

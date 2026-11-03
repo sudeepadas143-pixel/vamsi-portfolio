@@ -1,1 +1,1 @@
-export const ROUTES = ['/', '/about', '/contact', '/education', '/projects', '/otherprojects', '/projects/delumination', '/furscape', '/castle-infiltration', '/pier-extract', '/work/darkfen---darkfen'];
+export const ROUTES = ['/', '/about', '/contact', '/education', '/experience', '/projects', '/otherprojects', '/projects/delumination', '/furscape', '/castle-infiltration', '/pier-extract', '/work/darkfen---darkfen'];
