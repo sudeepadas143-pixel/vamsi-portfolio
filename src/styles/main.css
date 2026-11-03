@@ -129,7 +129,11 @@ a:focus-visible > .roll .nch { translate: 0 -1.4em; }
 .back-chevron i:last-child { top: 33.5px; transform: rotate(35deg); }
 .sub-nav__name { font: 900 22px/1 var(--f-display); letter-spacing: 0.02em; color: var(--c-fg); transition: color 0.2s; }
 .sub-nav__links { display: flex; justify-content: flex-end; gap: 28px; }
-.sub-nav__link { font: 700 18px/25px var(--f-display); letter-spacing: 0.06em; color: var(--c-fg-80); }
+.sub-nav__link { font: 700 18px/25px var(--f-display); letter-spacing: 0.06em; color: var(--c-fg-80); white-space: nowrap; }
+/* With five links showing, the name moves next to the back arrow so it never collides with them. */
+@media (min-width: 1101px) {
+  .sub-nav__inner { grid-template-columns: auto auto 1fr; column-gap: 24px; }
+}
 .sub-nav .menu-btn { display: none; }
 
 .menu-btn { display: inline-flex; align-items: center; gap: 10px; justify-self: end; padding: 8px 0; font: 700 18px/1 var(--f-display); letter-spacing: 0.1em; }
