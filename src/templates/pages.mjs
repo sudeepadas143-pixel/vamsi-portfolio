@@ -71,16 +71,16 @@ export function home() {
     </a>
   </section>
 
-  <section class="section section--wide projects-section" id="work" aria-labelledby="projects-title">
+  <section class="section section--wide experience-home" id="work" aria-labelledby="exp-home-title">
+    ${separator('EXPERIENCE', '/experience', { id: 'exp-home-title' })}
+    <div class="experience-home__list">${experience.map((x) => expItem(x, { large: true })).join('')}</div>
+  </section>
+
+  <section class="section section--wide projects-section" aria-labelledby="projects-title">
     ${separator('PROJECTS', '/projects', { id: 'projects-title' })}
     <div class="projects-grid">
       ${featured.map((p, i) => projectCard(p, { index: i, total: featured.length })).join('\n      ')}
     </div>
-  </section>
-
-  <section class="section section--wide experience-home" aria-labelledby="exp-home-title">
-    ${separator('EXPERIENCE', '/experience', { id: 'exp-home-title' })}
-    <div class="experience-home__list">${experience.map((x) => expItem(x, { large: true })).join('')}</div>
   </section>
 
   <section class="section section--wide others-section" aria-labelledby="others-title">
